@@ -1,9 +1,4 @@
-# CPSC 310 Project Repository
-
-This repository contains starter code for the class project.
-Please keep your repository private.
-
-For information about the project, autotest, and the checkpoints, see the course webpage.
+Full Stack web development project. Program to query of the metadata from around campus involving working with courses, prerequisites, past course averages, room scheduling, and timetable creation. 
 
 ## Configuring your environment
 
