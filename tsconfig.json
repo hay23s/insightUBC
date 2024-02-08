@@ -1,0 +1,21 @@
+{
+	"extends": "@tsconfig/node16/tsconfig.json",
+	"compilerOptions": {
+		"outDir": "dist",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"typeRoots": [
+			"./node_modules/@types"
+		]
+	},
+	"include": [
+      "src/**/*.ts",
+      "test/**/*.ts",
+      "../../AppData/Local/JetBrains/IntelliJIdea2021.3/javascript/typings/node/16.11.22/node_modules/@types/node/globals.d.ts"
+    ],
+	"exclude": [
+		"node_modules"
+	]
+}
